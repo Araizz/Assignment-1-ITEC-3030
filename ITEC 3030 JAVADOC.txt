@@ -1,0 +1,33 @@
+itec3030.assignments.a1.sensors.thermoset.ThermoSetX19FrontEnd
+
+Class ThermosetX19
+
+* java.lang.Object
+    * java.awt.Component
+        * java.awt.Container
+            * java.awt.Window
+                * java.awt.Frame
+                    * javax.swing.JFrame
+                        * itec3030.assignments.a1.sensors.thermoset.ThermoSetX19FrontEnd.FrontEnd.ThermoSetX19
+
+All Implemented Interfaces:
+
+itec3030.smarthome.ThermoSetX19FrontEnd;
+    itec3030.smarthome.standards.Thermostat;
+
+public class ThermosetX19 extends Thermostat, ThermoSetX19FrontEnd
+
+Constructors: 
+
+public ThermosetX19()
+
+Method Summary:
+
+Type:         Method
+
+void            n.pack();
+boolean        n.setVisible(true);
+int            n.setLocation(300,0);
+int            getReading()
+void             install(newTemperature t)
+void            tempSensors.add(t)End.FrontEnd.ThermoSetX19
